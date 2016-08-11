@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity" android:background="@color/white">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/imageView"
+        android:src="@drawable/edur_short_logo" android:layout_above="@+id/layoutConnectControls" android:background="#00ffffff" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="@string/msg_ready_to_connect"
+        android:id="@+id/lbInfo"
+        android:layout_gravity="center|top" />
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/layoutConnectControls"
+            android:visibility="visible"
+            >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbBotID"
+            />
+        <EditText
+                android:inputType="numberDecimal"
+                android:maxLength="12"
+                android:layout_width="fill_parent"
+                android:id="@+id/headId"
+                android:hint="@string/lbPleaseEnterID"
+                android:text=""
+                android:layout_height="wrap_content"
+                android:numeric="integer|decimal"
+                android:phoneNumber="true"
+                android:textSize="@dimen/bigFont"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bnLBMain_ConnectToRemoteBot"
+            android:onClick="connectToRemoteBotOnClick"
+            android:id="@+id/bnMain_ConnectToRemoteBot"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bnLBMain_MakeServer"
+            android:onClick="makeServerOnClick"
+            android:id="@+id/bnMain_MakeServer"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bnLBMain_TrackFace"
+            android:onClick="startFaceTracking"
+            android:id="@+id/faceTrackingBN" />
+        <!--Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bnLBMain_MotionDetection"
+            android:onClick="startMotionDetection"
+            android:id="@+id/motionDetectBN" /-->
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bnLBMain_Demo"
+            android:onClick="startDemo"
+            android:id="@+id/demoBN" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layoutProgressControls"
+        android:visibility="gone"
+        >
+        <ProgressBar
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:indeterminateDrawable="@drawable/spinner_ring"
+            android:indeterminateOnly="true"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:background="#bbffffff"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bnLBMain_Cancel"
+        android:id="@+id/bnMain_Cancel"
+        />
+    </LinearLayout>
+</RelativeLayout>

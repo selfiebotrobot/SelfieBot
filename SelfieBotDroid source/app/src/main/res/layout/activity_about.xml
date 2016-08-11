@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.endurancerobots.selfiebotdroid.AboutActivity">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/guide"
+        android:id="@+id/guide" />
+    <TextView
+        android:id="@+id/about_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="@dimen/bottom_text_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/authors_title"
+        android:id="@+id/authorsText" />
+
+    <TextView
+        android:id="@+id/authors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/authors"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="@dimen/bottom_text_padding"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/company"
+        android:id="@+id/company" />
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="@dimen/bottom_text_padding"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/support"
+        android:id="@+id/support" />
+
+    <TextView
+        android:id="@+id/support_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_support"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="@dimen/bottom_text_padding"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/site"
+        android:id="@+id/site" />
+    <TextView
+        android:id="@+id/company_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/company_site"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="@dimen/bottom_text_padding"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/updateApp"
+        android:id="@+id/updateApp" />
+    <TextView
+        android:id="@+id/download_last_release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/downloadLastRelease" />
+</LinearLayout>
+
+</ScrollView>

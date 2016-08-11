@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Selfiebot Droid</string>
+    <string name="app_name_launcher" translatable="false">Selfiebot Droid</string>
+
+    <!-- MAIN SCREEN -->
+    <string name="lbBotID">Bot ID (local or remote):</string>
+    <string name="lbHeadID">Head ID</string>
+    <string name="lbPleaseEnterID">enter ID here</string>
+    <string name="bnLBMain_ConnectToRemoteBot">Connect over Internet</string>
+    <string name="bnLBMain_MakeServer">Connect over Bluetooth</string>
+    <string name="bnLBMain_TrackFace">Face Tracking Bot</string>
+    <string name="bnLBMain_MotionDetection">Motion Detector</string>
+    <string name="bnLBMain_Demo">Demo</string>
+    <string name="bnLBMain_Cancel">Cancel</string>
+
+    <!--- MENU ITEMS MAIN SCREEN-->
+    <string name="strMenuItem_About">About</string>
+    <string name="strMenuItem_Quit">Exit</string>
+    <!--- MENU ITEMS BOT SERVICE-->
+    <string name="strMenuItem_Hide">Hide</string>
+    <string name="strMenuItem_Exit">Stop services and exit</string>
+
+    <!-- MAIN SCREEN MESSAGES-->
+    <string name="msg_connect_to_internet">Please connect to internet</string>
+
+    <!--GLOBAL MESSAGES -->
+    <string name="msg_ready_to_connect">Ready to connect...</string>
+    <string name="msg_successful_connection">SelfieBot connected.</string>
+    <string name="msg_connect_error">Unable to connect</string>
+    <string name="msg_proxy_connected">Connected to server. Waiting for operator.</string>
+    <string name="msg_connecting">SelfieBot connecting </string>
+    <string name="msg_disconnected">SelfieBot Disconnected.</string>
+    <string name="msg_connecting_bt">Connecting to SelfieBot over bluetooth...</string>
+    <string name="msg_connect_error_bt">Unable to connect over bluetooth</string>
+    <string name="msg_error_writing_bt">Error writing over bt:</string>
+    <string name="msg_disconnected_bt">SelfieBot Bluetooth Disconnected.</string>
+    <string name="msg_min_head_id">Please use at least 5 characters in ID</string>
+    <string name="msg_head_id_invalid">Please use valid ID</string>
+
+    <!--BLUETOOTH MESSAGES-->
+    <string name="msg_bluetooth_enabled">Bluetooth enabled</string>
+    <string name="msg_bluetooth_not_enabled">Bluetooth was not enabled</string>
+    <string name="msg_bluetooth_not_supported">Bluetooth is not supported</string>
+
+    <!-- DEVICE PICKER SCREEN -->
+    <string name="lbBTDevPick_PickDevice">Please pick the SelfieBOT out of following connected bluetooth devices:</string>
+    <string name="bnBtDevPick_BtSettings">Open Bluetooth Settings</string>
+    <string name="bnBTDevPick_Back">Back</string>
+
+    <!-- ABOUT SCREEN -->
+    <string name="title_activity_about">About</string>
+    <string name="guide">Guide</string>
+    <string name="about_text">It\'s app for controling movable holder.\n To control:\n
+        1. Hold your device in credle and switch on the bot\n
+        2. Push <i>Connect to Bot / Wait for Connections</i>.\n
+        3. Now your partner can start SelfieBot and push <i>Connect to remote phone / bot</i> to control the Bot
+    </string>
+    <string name="authors_title">Authors</string>
+    <string name="authors">Endurance Robots</string>
+    <string name="company">Company</string>
+    <string name="company_name" translatable="false">Endurance Robots</string>
+    <string name="support">Support</string>
+    <string name="email_support" translatable="false">
+        <a href="mailto:support@endurancerobots.com?subject=SelfieBot%20feedback">support@endurancerobots.com</a>
+    </string>
+    <string name="site">Site</string>
+    <string name="company_site" translatable="false">
+        <a href="http://endurancerobots.com">EnduranceRobots.com</a></string>
+    <string name="updateApp">Update application</string>
+    <string name="downloadLastRelease">
+        <a href="https://github.com/deadtr/SelfieBot/wiki/Install">Download last release</a>
+    </string>
+</resources>

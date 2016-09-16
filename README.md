@@ -5,5 +5,6 @@
 1. Goto "1 BOM". Buy all necessary parts of robot.
 2. Goto "2 Electronics design". Study electronics design.
 3. Goto "3 Upload firmware". Upload firmware to the microcontroller. Try how it works.
-4. etc
+4. etc.
+
 You can find detailed instruction in the file "Full guidance How to make a DIY SelfieBot"
